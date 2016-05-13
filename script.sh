@@ -10,4 +10,5 @@ cp -a wordpress /etc/puppet/modules
 cd /etc/puppet/modules
 puppet module build wordpress
 puppet module install wordpress/pkg/hunner-wordpress-1.0.0.tar.gz
-puppet apply install.pp
+puppet apply wordpress/install.pp
+rm /var/www/html/index.html
