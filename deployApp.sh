@@ -12,9 +12,3 @@ echo puppet module install puppetlabs-apache
 puppet module install puppetlabs-apache
 echo cp -a wordpress /etc/puppet/modules
 cp -a wordpress /etc/puppet/modules
-echo cd /etc/puppet/modules
-cd /etc/puppet/modules
-echo puppet module build wordpress
-puppet module build wordpress
-echo puppet module install wordpress/pkg/hunner-wordpress-1.0.0.tar.gz
-puppet module install wordpress/pkg/hunner-wordpress-1.0.0.tar.gz
